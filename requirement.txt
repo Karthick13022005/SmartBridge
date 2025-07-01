@@ -1,0 +1,14 @@
+# Create a requirements.txt file for the project
+requirements = """
+tensorflow>=2.10.0
+numpy>=1.21.0
+matplotlib>=3.4.0
+scikit-learn>=1.0.0
+pillow>=8.0.0
+"""
+
+requirements_path = "/mnt/data/requirements.txt"
+with open(requirements_path, "w") as f:
+    f.write(requirements.strip())
+
+requirements_path
